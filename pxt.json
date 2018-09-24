@@ -8,7 +8,10 @@
     },
     "files": [
         "README.md",
-        "beta-test.ts"
+        "beta-test.ts",
+        "beta-test.cpp",
+        "enums.d.ts",
+        "shims.d.ts"
     ],
     "testFiles": [
         "tests.ts"
