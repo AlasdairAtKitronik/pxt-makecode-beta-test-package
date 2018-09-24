@@ -1,7 +1,7 @@
 /**
  * Blocks for testing the MakeCode Beta Environment
  */
-//% weight=100 color=#00A654 icon="\uf5d2" block="Beta Test"
+//% weight=100 color=#00A654 icon="\uf025" block="Beta Test"
 //% groups='["GroupA", "GroupB", "GroupC"]'
 namespace Kitronik_Beta_Test {
 	/**
