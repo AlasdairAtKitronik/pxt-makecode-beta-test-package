@@ -47,22 +47,22 @@ namespace Kitronik_Beta_Test {
     //% weight=98 blockGap=8
     export function testBlockThree(test3: EnumOne): void {
         switch (test3) {
-            case 1:
+            case 0:
                 basic.showString("A")
                 break;
-            case 2:
+            case 1:
                 basic.showString("B")
                 break;
-            case 3:
+            case 2:
                 basic.showString("C")
                 break;
-            case 4:
+            case 3:
                 basic.showString("D")
                 break;
-            case 5:
+            case 4:
                 basic.showString("E")
                 break;
-            case 6:
+            case 5:
                 basic.showString("F")
                 break;
                
