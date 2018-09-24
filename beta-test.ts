@@ -46,6 +46,6 @@ namespace Kitronik_Beta_Test {
     //% blockId="kitronik_test_block_3" block="Enum Test Block for %test3"
     //% weight=95 blockGap=8
     export function testBlockThree(test3: EnumOne): void {
-        basic.showString(test2)
+        basic.showString(test3)
     }
 } 
