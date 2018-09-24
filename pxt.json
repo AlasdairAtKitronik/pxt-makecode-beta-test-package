@@ -1,0 +1,17 @@
+{
+    "name": "pxt-makecode-beta-test-package",
+    "version": "0.0.1",
+    "description": "Blocks for Testing MakeCode Beta",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "beta-test.ts"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true
+}
