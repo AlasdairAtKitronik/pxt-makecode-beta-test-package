@@ -1,7 +1,7 @@
 /**
  * Blocks for testing the MakeCode Beta Environment
  */
-//% weight=100 color=#00A654 icon="\uf492" block="Beta Test"
+//% weight=100 color=#00A654 icon="\uf5d2" block="Beta Test"
 //% groups='["GroupA", "GroupB", "GroupC"]'
 namespace Kitronik_Beta_Test {
 	/**
@@ -40,12 +40,32 @@ namespace Kitronik_Beta_Test {
 
     /**
      * Test Block 3
-     * @param test3 example of an enum selection, eg: C
+     * @param test3 example of an enum
      */
     //% group=GroupC
     //% blockId="kitronik_test_block_3" block="Enum Test Block for %test3"
     //% weight=98 blockGap=8
     export function testBlockThree(test3: EnumOne): void {
-        basic.showString(test3)
+        switch (test3) {
+            case 1:
+                basic.showString("A")
+                break;
+            case 2:
+                basic.showString("B")
+                break;
+            case 3:
+                basic.showString("C")
+                break;
+            case 4:
+                basic.showString("D")
+                break;
+            case 5:
+                basic.showString("E")
+                break;
+            case 6:
+                basic.showString("F")
+                break;
+               
+        }
     }
 } 
